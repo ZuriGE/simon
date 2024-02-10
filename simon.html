@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="simon.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+		<link rel="shortcut icon" href="./img/favicon.png" type="image/png" />
+		<title>Simon says</title>
+	</head>
+	<body>
+		<div class="container">
+			<h2 id="levelHeading">LEVEL <span id="level">1</span></h2>
+			<h2 class="turn inactive" id="simon">SIMON</h2>
+			<h2 class="turn inactive" id="player">PLAYER</h2>
+
+			<section class="gameBoard" id="gb">
+				<button class="button green" id="green">1</button>
+				<button class="button red" id="red">2</button>
+				<button class="button yellow" id="yellow">3</button>
+				<button class="button blue" id="blue">4</button>
+			</section>
+
+			<button class="start" id="start">START</button>
+		</div>
+
+		<script src="simon.js"></script>
+	</body>
+</html>
